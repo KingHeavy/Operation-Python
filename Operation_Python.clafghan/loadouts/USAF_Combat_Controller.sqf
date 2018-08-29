@@ -37,7 +37,7 @@ _this addGoggles "rhsusf_shemagh_od";
 comment "Add weapons";
 _this addWeapon "rhs_weap_m4a1_d_grip3";
 _this addPrimaryWeaponItem "rhsusf_acc_eotech_552_d";
-_this addPrimaryWeaponItem "RH_peq2_top";
+_this addPrimaryWeaponItem "CUP_acc_ANPEQ_2";
 _this addPrimaryWeaponItem "rhsusf_acc_grip3";
 _this addWeapon "rhsusf_weap_m9";
 _this addWeapon "Binocular";

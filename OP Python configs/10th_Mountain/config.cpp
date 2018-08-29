@@ -932,7 +932,7 @@ class CfgVehicles {
         magazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_carryhandle","","RH_peq2_top","",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},"rhsusf_acc_grip3"},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",9,30}}},{},"H_PASGT_dcu","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_carryhandle","","CUP_acc_ANPEQ_2","",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},"rhsusf_acc_grip3"},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",9,30}}},{},"H_PASGT_dcu","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -971,7 +971,7 @@ class CfgVehicles {
         magazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_carryhandle","","RH_peq2_top","",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},"rhsusf_acc_grip3"},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",3,30}}},{},"H_PASGT_dcu_G","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_carryhandle","","CUP_acc_ANPEQ_2","",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},"rhsusf_acc_grip3"},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",3,30}}},{},"H_PASGT_dcu_G","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1010,7 +1010,7 @@ class CfgVehicles {
         magazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_carryhandle","","RH_peq2_top","RH_compM2",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},"rhsusf_acc_grip3"},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",9,30}}},{},"H_PASGT_dcu","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_carryhandle","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},"rhsusf_acc_grip3"},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",9,30}}},{},"H_PASGT_dcu","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1205,7 +1205,7 @@ class CfgVehicles {
         magazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_m203","","RH_peq2","RH_compM2",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},""},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",3,30}}},{},"H_PASGT_dcu","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_m203","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},""},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",3,30}}},{},"H_PASGT_dcu","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1244,7 +1244,7 @@ class CfgVehicles {
         magazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_m203","","RH_peq2","RH_compM2",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},""},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",6,30}}},{},"H_PASGT_dcu_G","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_m203","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},""},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",6,30}}},{},"H_PASGT_dcu_G","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1283,7 +1283,7 @@ class CfgVehicles {
         magazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_carryhandle","","RH_peq2_top","RH_compM2",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},"rhsusf_acc_grip3"},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",9,30}}},{},"H_PASGTSpecB_dcu","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_carryhandle","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},"rhsusf_acc_grip3"},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",9,30}}},{},"H_PASGTSpecB_dcu","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1323,7 +1323,7 @@ class CfgVehicles {
         magazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_30Rnd_556x45_M855_Stanag","rhsusf_mag_15Rnd_9x19_JHP"};
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_carryhandle","","RH_peq2_top","RH_compM2",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},"rhsusf_acc_grip3"},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",9,30}}},{},"H_PASGTSpecB_dcu_G","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4_carryhandle","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"rhs_mag_30Rnd_556x45_M855_Stanag",30},{},"rhsusf_acc_grip3"},{},{"rhsusf_weap_m9","","","",{"rhsusf_mag_15Rnd_9x19_JHP",15},{},""},{"U_B_RBU_DCU",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",2},{"ACE_packingBandage",4},{"ACE_tourniquet",2},{"ACE_EarPlugs",1},{"Simc_PVS7",1},{"rhsusf_mag_15Rnd_9x19_FMJ",2,15},{"Chemlight_green",2,1}}},{"V_IBA_Alice",{{"rhsusf_mag_15Rnd_9x19_JHP",1,15},{"rhs_mag_m67",2,1},{"rhs_mag_an_m8hc",2,1},{"rhs_mag_30Rnd_556x45_M855_Stanag",9,30}}},{},"H_PASGTSpecB_dcu_G","rhsusf_shemagh_od",{},{"ItemMap","","","ItemCompass","tf_microdagr","Simc_PVS7"}};
 
 
         class EventHandlers : EventHandlers {

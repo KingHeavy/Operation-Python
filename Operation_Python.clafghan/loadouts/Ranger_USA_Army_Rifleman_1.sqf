@@ -34,7 +34,7 @@ comment "Add weapons";
 this addWeapon "rhs_weap_m4a1_carryhandle";
 this addPrimaryWeaponItem "rhsusf_acc_eotech_552";
 this addPrimaryWeaponItem "rhsusf_acc_grip3";
-_this addPrimaryWeaponItem "RH_peq2_top";
+_this addPrimaryWeaponItem "CUP_acc_ANPEQ_2";
 this addWeapon "rhsusf_weap_m9";
 
 comment "Add items";

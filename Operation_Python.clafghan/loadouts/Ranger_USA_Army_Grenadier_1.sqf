@@ -32,8 +32,8 @@ _this addGoggles "rhsusf_shemagh_gogg_od";
 
 comment "Add weapons";
 _this addWeapon "rhs_weap_m4a1_carryhandle_m203S";
-_this addPrimaryWeaponItem "RH_compM2";
-_this addPrimaryWeaponItem "RH_peq2";
+_this addPrimaryWeaponItem "CUP_optic_CompM2_Black";
+_this addPrimaryWeaponItem "CUP_acc_ANPEQ_2";
 _this addWeapon "rhsusf_weap_m9";
 
 comment "Add items";

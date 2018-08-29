@@ -571,42 +571,18 @@ class CfgVehicles {
             class CargoTurret_06;
         };
     };
-
-
-    class O_Taliban_Ind_T55_2002_01 : CUP_I_T55_TK_GUE_OCimport_02 {
-        author = "JerkinMerkin";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "T-55A";
-        side = 2;
-        faction = "O_Taliban_Ind_2002_Ind";
-        crew = "O_Taliban_Ind_Insurgent_AKMN_2002_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_Taliban_Ind_Insurgent_AKM_2002_01"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
+	
+	class O_Taliban_Ind_T55_2002_01: CUP_I_T55_TK_GUE
+	{
+		_generalMacro = "O_Taliban_Ind_T55_2002_01";
+		scope = 2;
+		scopeCurator = 2;
+		side = 0;
+		displayName = "T-55A";
+		faction = "O_Taliban_Ind_2002_Ind";
+		crew = "O_Taliban_Ind_Insurgent_AKMN_2002_01";
+		typicalCargo[] = {"O_Taliban_Ind_Insurgent_AKMN_2002_01"};
+		};
 
     class O_Taliban_Ind_Datsun_Technical_2002_01 : walker_a3_datsun_OCimport_02 {
         author = "JerkinMerkin";
