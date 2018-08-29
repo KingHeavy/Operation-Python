@@ -1,0 +1,4 @@
+Operation_Python = bare minimum modset for clients
+Operation_Python_with_extras = includes recommended optional mods for full immersive experience
+Operation_Python_dev = For use when editing the mission.  DO NOT SAVE THE MISSION WITHOUT USING THESE MODS AS IT WILL BREAK THE MISSION.
+Operation_Python_server = for use on the dedicated server.  Includes serverside mods.  Downlaod F-16 Real Sound Mod here: http://www.armaholic.com/page.php?id=33439
