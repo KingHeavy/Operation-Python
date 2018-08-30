@@ -147,6 +147,8 @@ civTraffic_edgeTopRightRoads=[];
 civTraffic_edgeBottomRightRoads=[];
 civTraffic_edgeBottomLeftRoads=[];
 civTraffic_edgeRoadsUseful=[];
+
+//what does this do?!  - Jmaster
 #ifndef execNow
 #define execNow call compile preprocessFileLineNumbers
 #endif
@@ -156,8 +158,8 @@ null=[]execVM"eos\openMe.sqf";
 call compile preprocessFileLineNumbers"common\server\civ\serverFN.sqf";call compile preprocessFileLineNumbers"common\server\civ\cCFG.sqf";
 call compile preprocessFileLineNumbers"common\server\civ\fn.sqf";call compile preprocessFileLineNumbers"common\server\civ\tCFG.sqf";};
 if(paramsArray select 3==1)then{0=[12,1000,300]execVM"common\server\civ\tpw_animals.sqf";};
-execVM"common\server\ctp\ctp.sqf";
+execVM "common\server\ctp\ctp.sqf";
 
-#include"common\server\civ\civIntel.sqf";
-#include"common\server\civ\civIntel2.sqf";
-#include"common\server\civ\civIntel3.sqf";
+civ_startAsk_intel_1 = compile PreprocessFileLineNumbers "common\server\civ\civIntel.sqf";
+civ_startAsk_intel_2 = compile PreprocessFileLineNumbers "common\server\civ\civIntel2.sqf";
+civ_startAsk_intel_3 = compile PreprocessFileLineNumbers "common\server\civ\civIntel3.sqf";
