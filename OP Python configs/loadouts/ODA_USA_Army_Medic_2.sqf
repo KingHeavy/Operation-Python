@@ -43,7 +43,7 @@ _this addGoggles "rhsusf_shemagh_tan";
 
 comment "Add weapons";
 _this addWeapon "rhs_weap_m4a1_d";
-_this addPrimaryWeaponItem "CUP_acc_ANPEQ_2";
+_this addPrimaryWeaponItem "CUP_acc_ANPEQ_2_desert";
 _this addPrimaryWeaponItem "rhsusf_acc_eotech_552_d";
 _this addPrimaryWeaponItem "rhsusf_acc_grip3";
 _this addWeapon "rhsusf_weap_m9";

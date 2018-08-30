@@ -230,7 +230,7 @@ class CfgVehicles {
         side = 2;
         faction = "O_Taliban_Ind_2002_Ind";
 
-        identityTypes[] = {"Head_TK","LanguageGRE_F","G_GUERIL_default"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_GUERIL_default"};
 
         uniformClass = "CFP_U_KhetPartug_Short_Grey";
 
@@ -268,7 +268,7 @@ class CfgVehicles {
         side = 2;
         faction = "O_Taliban_Ind_2002_Ind";
 
-        identityTypes[] = {"Head_TK","LanguageGRE_F","G_GUERIL_default"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_GUERIL_default"};
 
         uniformClass = "CFP_U_KhetPartug_Long_Grey";
 
@@ -382,7 +382,7 @@ class CfgVehicles {
         side = 2;
         faction = "O_Taliban_Ind_2002_Ind";
 
-        identityTypes[] = {"Head_TK","LanguageGRE_F","G_GUERIL_default"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_GUERIL_default"};
 
         uniformClass = "CFP_U_KhetPartug_Long_BlueGrey";
 
@@ -498,7 +498,7 @@ class CfgVehicles {
         side = 2;
         faction = "O_Taliban_Ind_2002_Ind";
 
-        identityTypes[] = {"Head_TK","LanguageGRE_F","G_GUERIL_default"};
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_GUERIL_default"};
 
         uniformClass = "CUP_O_TKI_Khet_Partug_06";
 
