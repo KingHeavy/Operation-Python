@@ -188,3 +188,10 @@ class CfgSFX
 		empty[]= {"",0,0,0,0,0,0,0};
 	};
 };
+
+class CfgSounds {
+#include "common\server\civ\SFX.hpp"
+sounds[]={adhan,,shout};
+	class adhan {name="adhan";sound[]={"common\server\ctp\adhan.ogg",1,1};titles[]={};};
+	class shout {name="shout";sound[]={"eos\fn\shout.ogg",db-0.7,1,50};titles[]={};};
+};

@@ -33,7 +33,7 @@ _this addGoggles "rhsusf_shemagh_od";
 comment "Add weapons";
 _this addWeapon "rhs_weap_m4_carryhandle";
 _this addWeapon "rhsusf_weap_m9";
-_this addWeapon "Binocular";
+_this addWeapon "rhsusf_bino_m24";
 
 comment "Add items";
 _this linkItem "ItemMap";

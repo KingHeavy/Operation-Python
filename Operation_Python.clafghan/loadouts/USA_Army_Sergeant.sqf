@@ -37,7 +37,7 @@ _this addPrimaryWeaponItem "CUP_acc_ANPEQ_2";
 _this addPrimaryWeaponItem "CUP_optic_CompM2_Black";
 _this addPrimaryWeaponItem "rhsusf_acc_grip3";
 _this addWeapon "rhsusf_weap_m9";
-_this addWeapon "Binocular";
+_this addWeapon "rhsusf_bino_m24";
 
 comment "Add items";
 _this linkItem "ItemMap";

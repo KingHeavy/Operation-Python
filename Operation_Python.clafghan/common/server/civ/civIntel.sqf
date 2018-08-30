@@ -11,7 +11,7 @@ private _myTrait=player getUnitTrait"UavHacker";
 private _hello=str selectRandom["<t size='2' shadow='2'>Hello.</t>"];
 private _noEnglish=selectRandom["(He shakes his head)","(He looks clueless)","(He seems confused)"];
 private _askIntel=str selectRandom[
-	"<t size='2' shadow='2'>The commander at COP Weasel said you may have some important information for us.</t>"];
+	"<t size='2' shadow='2'>The American Commander said you may have some important information for us.</t>"];
 private _LineOne=str selectRandom[
 	"<t size='2' shadow='2'>Yes!  Yes I do... well I dont have it, my cousin does.</t>"];
 private _LineTwo=str selectRandom[

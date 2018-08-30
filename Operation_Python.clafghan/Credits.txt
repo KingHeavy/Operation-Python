@@ -1,0 +1,13 @@
+JerkinMerkin (TFR) - Mission Maker
+Jmaster (TFR) - Delete Unit on Death Script/Loadout Script/Admin Tools/Map Ambience Placement/Testing
+Jebediah (TFR) - Map Ambience Placement/Testing
+ScottyZ (TFR) - Map Ambience Placement/Testing
+Hustler - Insurgency Scripts
+Engima -  Civilian Traffic Script
+Prien -  Suicide Bomber Script
+ALIAScartoons - Snowtorm Script
+phronk - Fleeing Civilians Script
+TPW - TPW scripts
+BangaBob - Enemy/Civilian Occupation System Script
+Dominic - Vcom AI
+AuburnAlumni - Middle Eastern Sounds

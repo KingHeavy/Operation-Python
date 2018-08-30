@@ -34,10 +34,10 @@ _this addGoggles "rhsusf_shemagh_tan";
 
 comment "Add weapons";
 _this addWeapon "rhs_weap_m4a1_m203s_d";
-_this addPrimaryWeaponItem "CUP_acc_ANPEQ_2";
+_this addPrimaryWeaponItem "CUP_acc_ANPEQ_2_desert";
 _this addPrimaryWeaponItem "rhsusf_acc_ACOG_d";
 _this addWeapon "rhsusf_weap_m9";
-_this addWeapon "Binocular";
+_this addWeapon "rhsusf_bino_m24";
 
 comment "Add items";
 _this linkItem "ItemMap";

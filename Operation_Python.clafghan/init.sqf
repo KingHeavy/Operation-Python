@@ -1,6 +1,3 @@
-execVM "fn_advancedSlingLoadingInit.sqf";
-
-
 RHSDecalsOff = true;
 
 //Exec Vcom AI function
@@ -118,6 +115,49 @@ _civ removeAllEventHandlers "FiredNear";}];};
 }forEach allUnits-switchableUnits-playableUnits
 };
 
+enableSaving false;
+if(isClass(configFile>>"CfgPatches">>"TPW_MODS"))then{endMission"END2";};
+if(isClass(configFile>>"CfgPatches">>"task_force_radio"))then{isTFAR=true;}else{isTFAR=false;};
+if(isClass(configFile>>"CfgPatches">>"acre_main"))then{isACRE=true;}else{isACRE=false;};
+if(isClass(configFile>>"cfgPatches">>"ace_common"))then{isACE=true;}else{isACE=false;};
+if(isClass(configFile>>"cfgPatches">>"Taliban_fighters"))then{isTalib=true;}else{isTalib=false;};
+if(isClass(configFile>>"cfgPatches">>"CUP_Weapons_WeaponsCore"))then{isCUPW=true;}else{isCUPW=false;};
+if(isClass(configFile>>"cfgPatches">>"CUP_Creatures_People_Core"))then{isCUPU=true;}else{isCUPU=false;};
+if((isClass(configFile>>"cfgPatches">>"CUP_WheeledVehicles_Core"))&&{(isClass(configFile>>"cfgPatches">>"CUP_BaseConfigs"))})then{isCUPV=true;}else{isCUPV=false;};
+if(isClass(configFile>>"cfgPatches">>"SFG_Tac_Beard"))then{isBeard=true;}else{isBeard=false;};
+if(isClass(configFile>>"cfgPatches">>"rhs_t72"))then{isRHSRF=true;}else{isRHSRF=false;};
+if(isClass(configFile>>"cfgPatches">>"rhsusf_vehicles"))then{isRHSUS=true;}else{isRHSUS=false;};
+#include"eos\fn\fn.sqf";
 #include"common\server\civ\civActions.sqf";
+call compile preprocessFileLineNumbers"common\server\civ\traffic.sqf";
+call compile preprocessFileLineNumbers"common\server\civ\dbugT.sqf";
+call compile preprocessFileLineNumbers"common\server\civ\dbugC.sqf";
+civs_SIDE=civilian;
+civs_MINSKILL=0;
+civs_MAXSKILL=0;
+civs_MAXWAITINGTIME=300;
+civs_RUNNINGCHANCE=0.05;
+civs_BEHAVIOURS=[["CITIZEN",100]];
+civs_INSTANCE_NO=0;
+civTraffic_instanceIndex=-1;
+civTraffic_areaMarkerNames=[];
+civTraffic_roadSegments=[];
+civTraffic_edgeTopLeftRoads=[];
+civTraffic_edgeTopRightRoads=[];
+civTraffic_edgeBottomRightRoads=[];
+civTraffic_edgeBottomLeftRoads=[];
+civTraffic_edgeRoadsUseful=[];
+#ifndef execNow
+#define execNow call compile preprocessFileLineNumbers
+#endif
+ia_say=compileFinal"_this select 0 say3D(_this select 1);";
+if(isServer)then{
+null=[]execVM"eos\openMe.sqf";
+call compile preprocessFileLineNumbers"common\server\civ\serverFN.sqf";call compile preprocessFileLineNumbers"common\server\civ\cCFG.sqf";
+call compile preprocessFileLineNumbers"common\server\civ\fn.sqf";call compile preprocessFileLineNumbers"common\server\civ\tCFG.sqf";};
+if(paramsArray select 3==1)then{0=[12,1000,300]execVM"common\server\civ\tpw_animals.sqf";};
+execVM"common\server\ctp\ctp.sqf";
+
 #include"common\server\civ\civIntel.sqf";
 #include"common\server\civ\civIntel2.sqf";
+#include"common\server\civ\civIntel3.sqf";
