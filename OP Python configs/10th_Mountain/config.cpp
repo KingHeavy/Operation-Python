@@ -5429,8 +5429,8 @@ class CfgVehicles {
 		faction = "O_US10thMountain_2002";
 		genericNames = "NATOMen";
 		uniformClass= "nomex_Olive";
-		weapons[] = {"rhs_weap_m4_carryhandle", "Throw", "Put", "rhsusf_weap_m9", "Binocular"};
-		respawnWeapons[] = {"rhs_weap_m4_carryhandle", "Throw", "Put", "rhsusf_weap_m9", "Binocular"};
+		weapons[] = {"rhs_weap_m4_carryhandle", "Throw", "Put", "rhsusf_weap_m9", "rhsusf_bino_m24"};
+		respawnWeapons[] = {"rhs_weap_m4_carryhandle", "Throw", "Put", "rhsusf_weap_m9", "rhsusf_bino_m24"};
 		Items[] = {"ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing", "ACE_elasticBandage", "ACE_elasticBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_elasticBandage", "ACE_elasticBandage", "ACE_tourniquet", "ACE_tourniquet", "ACE_MapTools", "ACE_EarPlugs", "Simc_PVS7", "ACE_IR_Strobe_Item"};
 		RespawnItems[] = {"ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing", "ACE_elasticBandage", "ACE_elasticBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_elasticBandage", "ACE_elasticBandage", "ACE_MapTools", "ACE_tourniquet", "ACE_tourniquet", "ACE_EarPlugs", "Simc_PVS7", "ACE_IR_Strobe_Item"};
 		magazines[] = {"rhsusf_mag_15Rnd_9x19_FMJ", "rhsusf_mag_15Rnd_9x19_FMJ", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_an_m8hc", "rhs_mag_an_m8hc", "ACE_HandFlare_Red", "ACE_HandFlare_Red", "Chemlight_green", "Chemlight_green"};
