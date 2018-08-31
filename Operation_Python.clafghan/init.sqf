@@ -129,8 +129,6 @@ if(isClass(configFile>>"cfgPatches">>"rhs_t72"))then{isRHSRF=true;}else{isRHSRF=
 if(isClass(configFile>>"cfgPatches">>"rhsusf_vehicles"))then{isRHSUS=true;}else{isRHSUS=false;};
 #include"eos\fn\fn.sqf";
 #include"common\server\civ\civActions.sqf";
-call compile preprocessFileLineNumbers"common\server\civ\traffic.sqf";
-call compile preprocessFileLineNumbers"common\server\civ\dbugT.sqf";
 call compile preprocessFileLineNumbers"common\server\civ\dbugC.sqf";
 civs_SIDE=civilian;
 civs_MINSKILL=0;
@@ -139,14 +137,6 @@ civs_MAXWAITINGTIME=300;
 civs_RUNNINGCHANCE=0.05;
 civs_BEHAVIOURS=[["CITIZEN",100]];
 civs_INSTANCE_NO=0;
-civTraffic_instanceIndex=-1;
-civTraffic_areaMarkerNames=[];
-civTraffic_roadSegments=[];
-civTraffic_edgeTopLeftRoads=[];
-civTraffic_edgeTopRightRoads=[];
-civTraffic_edgeBottomRightRoads=[];
-civTraffic_edgeBottomLeftRoads=[];
-civTraffic_edgeRoadsUseful=[];
 
 //what does this do?!  - Jmaster
 #ifndef execNow
@@ -155,10 +145,11 @@ civTraffic_edgeRoadsUseful=[];
 ia_say=compileFinal"_this select 0 say3D(_this select 1);";
 if(isServer)then{
 null=[]execVM"eos\openMe.sqf";
-call compile preprocessFileLineNumbers"common\server\civ\serverFN.sqf";call compile preprocessFileLineNumbers"common\server\civ\cCFG.sqf";
-call compile preprocessFileLineNumbers"common\server\civ\fn.sqf";call compile preprocessFileLineNumbers"common\server\civ\tCFG.sqf";};
+call compile preprocessFileLineNumbers"common\server\civ\serverFN.sqf";call compile preprocessFileLineNumbers"common\server\civ\cCFG.sqf";};
 if(paramsArray select 3==1)then{0=[12,1000,300]execVM"common\server\civ\tpw_animals.sqf";};
 execVM "common\server\ctp\ctp.sqf";
+
+call compile preprocessFileLineNumbers "Engima\Traffic\Init.sqf";
 
 civ_startAsk_intel_1 = compile PreprocessFileLineNumbers "common\server\civ\civIntel.sqf";
 civ_startAsk_intel_2 = compile PreprocessFileLineNumbers "common\server\civ\civIntel2.sqf";
