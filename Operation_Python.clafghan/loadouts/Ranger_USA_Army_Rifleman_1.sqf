@@ -46,4 +46,4 @@ this linkItem "TFAR_rf7800str";
 comment "Set identity";
 this setFace "WhiteHead_11";
 this setSpeaker "male06eng";
-[this,"ua_173ab_sub"] call bis_fnc_setUnitInsignia;
+[_this,"USP_PATCH_USA_TAB_75RGR"] call bis_fnc_setUnitInsignia;

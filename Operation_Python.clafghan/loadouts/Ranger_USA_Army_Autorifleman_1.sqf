@@ -46,4 +46,4 @@ _this linkItem "TFAR_anprc152";
 comment "Set identity";
 _this setFace "WhiteHead_11";
 _this setSpeaker "male06eng";
-[_this,"ua_173ab_sub"] call bis_fnc_setUnitInsignia;
+[_this,"USP_PATCH_USA_TAB_75RGR"] call bis_fnc_setUnitInsignia;
