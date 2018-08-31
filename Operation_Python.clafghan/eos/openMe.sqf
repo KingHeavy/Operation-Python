@@ -39,3 +39,4 @@ null=[["mkr17"],[2,1,100],[2,0,100],[0,0,0],[0,0],[0,0],[0,0,0],[3,1,175,CIVILIA
 null=[["mkr18"],[15,1,100],[15,0,100],[0,0,0],[0,0],[0,0],[0,0,0],[3,1,175,CIVILIAN,TRUE,FALSE]]call EOSspawn;
 null=[["mkr19"],[5,1,100],[5,0,100],[0,0,0],[0,0],[0,0],[0,0,0],[3,1,175,CIVILIAN,TRUE,FALSE]]call EOSspawn;
 null=[["mkr20"],[5,1,100],[5,0,100],[0,0,0],[0,0],[0,0],[0,0,0],[3,1,175,CIVILIAN,TRUE,FALSE]]call EOSspawn;
+null=[["mkr21"],[0,0,100],[0,0,100],[0,0,0],[0,0],[0,0],[0,0,0],[3,1,175,CIVILIAN,TRUE,FALSE]]call EOSspawn;
