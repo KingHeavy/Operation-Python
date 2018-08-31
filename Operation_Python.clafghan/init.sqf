@@ -12,7 +12,7 @@ if ((!isServer) && (player != player)) then {waitUntil {player == player};};
 
 // running script with breath vapors and wind bursts on server side, fog managed by script
 //null = [direction_storm,duration_storm,effect_on_objects,ambient_sounds_al,breath_vapors,snow_burst_server_side,snow_burst_client_side,al_fog_snow,snow_indoor,local_fog] execvm "AL_snowstorm\al_snow.sqf";
-null = [80,1440,false,1,true,false,false,false,true,false] execvm "AL_snowstorm\al_snow.sqf";
+null = [80,1440,false,0,true,false,false,false,true,false] execvm "AL_snowstorm\al_snow.sqf";
 
 // Change day night cycle length - by RickOShay
 // This will run on the server and not clients
