@@ -75,20 +75,6 @@ sleep 0.1;
 	};
 };
 
-[] spawn {
-if (snow_burst_server_side) then {
-	while {al_snowstorm_om} do {
-	["bcg_wind"] remoteExec ["playSound"];
-	sleep 42;
-	};
-	} else {
-	while {al_snowstorm_om} do {
-	["bcg_wind_mild"] remoteExec ["playSound"];
-	sleep 42;
-	};
-	};
-};
-
 // tree cracks
 [] spawn {
 	sleep 20;
