@@ -1,5 +1,5 @@
 //scripted intel
-civ_startAsk_intel_3={
+civ_startAsk_intel_4={
 if(!local player)exitWith{};
 private _civ=_this select 0;
 if(cursorTarget!=_civ)exitWith{};
@@ -8,12 +8,12 @@ if(player distance _civ>5)exitWith{titleText["He's too far away...","PLAIN DOWN"
 if(!(side _civ isEqualTo CIVILIAN))exitWith{_civ remoteExec["removeAllActions",0,true];};
 
 private _myTrait=player getUnitTrait"UavHacker";
-private _hello=str selectRandom["<t size='2' shadow='2'>Hello.</t>"];
+private _hello=str selectRandom["<t size='2' shadow='2'>Hi there.</t>"];
 private _noEnglish=selectRandom["(He shakes his head)","(He looks clueless)","(He seems confused)"];
 private _askIntel=str selectRandom[
-	"<t size='2' shadow='2'>How are yo...</t>"];
+	"<t size='2' shadow='2'>What are you selling?</t>"];
 private _LineOne=str selectRandom[
-	"<t size='2' shadow='2'>I'll sell you my wife.  She cooks and cleans!</t>"];
+	"<t size='2' shadow='2'>Do you want to buy my goat?</t>"];
 
 _civ remoteExec["removeAllActions",0,true];titleText[_hello,"PLAIN DOWN",-1,true,true];player setRandomLip true;_civ allowDamage false;
 sleep 1;

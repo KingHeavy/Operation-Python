@@ -1,5 +1,5 @@
 //scripted intel
-civ_startAsk_intel_3={
+civ_startAsk_intel_5={
 if(!local player)exitWith{};
 private _civ=_this select 0;
 if(cursorTarget!=_civ)exitWith{};
@@ -8,12 +8,16 @@ if(player distance _civ>5)exitWith{titleText["He's too far away...","PLAIN DOWN"
 if(!(side _civ isEqualTo CIVILIAN))exitWith{_civ remoteExec["removeAllActions",0,true];};
 
 private _myTrait=player getUnitTrait"UavHacker";
-private _hello=str selectRandom["<t size='2' shadow='2'>Hello.</t>"];
+private _hello=str selectRandom["<t size='2' shadow='2'>Howdy Partner.</t>"];
 private _noEnglish=selectRandom["(He shakes his head)","(He looks clueless)","(He seems confused)"];
 private _askIntel=str selectRandom[
-	"<t size='2' shadow='2'>How are yo...</t>"];
+	"<t size='2' shadow='2'>We are here to bring freedom and democracy to your country!</t>"];
 private _LineOne=str selectRandom[
-	"<t size='2' shadow='2'>I'll sell you my wife.  She cooks and cleans!</t>"];
+	"<t size='2' shadow='2'>Hello American, I love America!</t>"];
+	private _LineTwo=str selectRandom[
+	"<t size='2' shadow='2'>Do you have a spare tire?</t>"];
+private _LineThree=str selectRandom[
+	"<t size='2' shadow='2'>I would be very grateful if you could help me fix my tire.</t>"];
 
 _civ remoteExec["removeAllActions",0,true];titleText[_hello,"PLAIN DOWN",-1,true,true];player setRandomLip true;_civ allowDamage false;
 sleep 1;
@@ -41,6 +45,11 @@ _civ setRandomLip true;
 			[_civ,"Acts_StandingSpeakingUnarmed"]remoteExec["switchMove",0];
 			sleep 5;
 			titleText[_LineOne,"PLAIN DOWN",-1,true,true];
+			sleep 5;
+			sleep 5;
+			titleText[_LineTwo,"PLAIN DOWN",-1,true,true];
+			sleep 5;
+			titleText[_LineThree,"PLAIN DOWN",-1,true,true];
 			sleep 5;
 			_civ setRandomLip false;
 			sleep 1;
