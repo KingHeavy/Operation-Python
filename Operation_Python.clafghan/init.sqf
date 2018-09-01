@@ -151,6 +151,8 @@ execVM "common\server\ctp\ctp.sqf";
 
 call compile preprocessFileLineNumbers "Engima\Traffic\Init.sqf";
 
+execVM "R3F_LOG\init.sqf";
+
 civ_startAsk_intel_1 = compile PreprocessFileLineNumbers "common\server\civ\civIntel.sqf";
 civ_startAsk_intel_2 = compile PreprocessFileLineNumbers "common\server\civ\civIntel2.sqf";
 civ_startAsk_intel_3 = compile PreprocessFileLineNumbers "common\server\civ\civIntel3.sqf";

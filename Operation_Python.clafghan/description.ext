@@ -152,7 +152,7 @@ class CfgSFX
 	{
 		name = "ISISpropoganda";
 		sounds[]={sfxsound};
-		sfxsound[]={"sound\ISISpropoganda.ogg",15,1,24,1,1,1,0};
+		sfxsound[]={"sound\ISISpropoganda.ogg",2,1,750,1,1,1,0};
 		empty[]= {"",0,0,0,0,0,0,0};
 	};
         
@@ -381,3 +381,5 @@ sounds[]={adhan,,shout};
 		titles[] = {1, ""};
 	};
 };
+
+#include "R3F_LOG\desc_include.h"
